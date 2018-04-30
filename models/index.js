@@ -1,5 +1,3 @@
-// En el fichero se debe definir la tabla quizzes y exportarla. Además se debe sincronizar la BBDD (con sync()) e inicializarla con bulkCreate(..)
-
 const path = require('path');
 
 // Load ORM
@@ -64,4 +62,3 @@ user.belongsToMany(quiz, {
 });
 
 module.exports = sequelize;
-
