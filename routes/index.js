@@ -1,5 +1,10 @@
+var express = require('express');
+var app = express();
+
 var router = express.Router();
-//router.get(path, MW);
-router.get(credits);
-router.get(quizzes);
+app.use(credits);
+app.use(quizzes);
+
+router.get(GET/credits);
+router.get(GET/quizzes);
 
