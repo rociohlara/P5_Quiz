@@ -15,7 +15,7 @@ app.listen (3000);
 <h1> Rocio</h1>
 
 <p>
-  <img src='images/indice.jpeg'>
+  <img src='images/6.jpeg'>
 </p>
  
 
