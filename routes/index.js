@@ -1,24 +1,5 @@
-var express = require ('express');
-var app = express();
-app.use (express.static('public'));
-app.listen (3000);
+var router = express.Router();
+//router.get(path, MW);
+router.get(credits);
+router.get(quizzes);
 
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>CORE</title>
-</head>
-
-<body>
-
-<h1> Rocio</h1>
-
-<p>
-  <img src='images/6.jpeg'>
-</p>
- 
-
-
-</body>
-</html>
