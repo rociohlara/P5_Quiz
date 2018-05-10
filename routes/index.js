@@ -1,15 +1,16 @@
-var router = express.Router();
 var express = require('express');
+var router = express.Router();
 
 const sequelize = require('../models/index.js');
+//const Sequelize = require('sequelize');
 
-//gert home page
+/* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
 router.get('/credits', function(req, res, next) {
-  res.render('credits', { title: 'ROCIO' });
+  res.render('credits', { title: 'DANIEL' });
 });
 
 router.get('/quizzes', function(req, res, next) {
