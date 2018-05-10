@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/credits', function(req, res, next) {
-  res.render('credits', { title: 'DANIEL' });
+  res.render('credits', { title: 'ROCIO' });
 });
 
 router.get('/quizzes', function(req, res, next) {
