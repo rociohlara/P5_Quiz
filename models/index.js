@@ -26,11 +26,11 @@ sequelize.sync().then(() => sequelize.models.quiz.count()).then((count) => {
 				{ question: "¿capital de Italia?", answer: "Roma" },
 				{ question: "¿capital de Francia?", answer: "Paris" },
 				{ question: "¿capital de España?", answer: "Madrid" },
-				{ question: "¿capital de Portugal?", answer: "Lisboa" }
-      	{ question: "¿capital de Arabia Saudita?", answer: "Riad" },
-				{ question: "¿capital de Portugal?", answer: "Lisboa" }
-      	{ question: "¿capital de Austria?", answer: "Viena" },
-				{ question: "¿capital de Brasil?", answer: "Brasilia" }ç
+				{ question: "¿capital de Portugal?", answer: "Lisboa" },
+      	                        { question: "¿capital de Arabia Saudita?", answer: "Riad" },
+				{ question: "¿capital de Portugal?", answer: "Lisboa" },
+      	                        { question: "¿capital de Austria?", answer: "Viena" },
+				{ question: "¿capital de Brasil?", answer: "Brasilia" }
       
 				]);
 			}
